@@ -1,0 +1,42 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5b1ead4f6c64ce6955244636
+type: experiment
+name: new flag
+flag: newFlag
+platforms:
+  - name: iOS
+    conditions:
+      - group:
+          name: aaaa
+        value:
+          - from: 2019-02-14T16:17:42.113Z
+            percentage: 0
+            option: true
+          - from: 2019-02-21T00:00:00.000Z
+            percentage: 100
+            option: true
+          - from: 2019-02-27T00:00:00.000Z
+            percentage: 100
+            option: true
+          - from: 2019-02-28T00:00:00.000Z
+            percentage: 100
+            option: true
+          - from: 2019-03-21T00:00:00.000Z
+            percentage: 0
+            option: true
+          - from: 2019-03-22T00:00:00.000Z
+            percentage: 100
+            option: true
+          - from: 2019-03-28T00:00:00.000Z
+            percentage: 100
+            option: true
+          - from: 2019-03-29T00:00:00.000Z
+            percentage: 100
+            option: true
+    value:
+      - from: 2019-02-14T18:10:56.707Z
+        percentage: 0
+        option: true
+      - from: 2019-02-19T00:00:00.000Z
+        percentage: 100
+        option: true

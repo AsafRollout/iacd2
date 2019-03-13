@@ -1,0 +1,14 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5b1d245e9373e2157eacf302
+type: experiment
+name: disable button
+flag: disableButton
+platforms:
+  - name: iOS
+    conditions:
+      - dependency:
+          flag: newFlag
+          value: 'true'
+    value: false
+  - name: tvOS
+    value: true
