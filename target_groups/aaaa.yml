@@ -3,4 +3,4 @@ name: aaaa
 conditions:
   - operator: ne
     property: rox.platform
-    operand: '333'
+    operand: '3333'
